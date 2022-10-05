@@ -1,0 +1,185 @@
+/* Inter,
+-apple-system,
+Framedcn,
+Helvetica Neu   e,
+Condensed,
+DisplayRegular,
+Helvetica,
+Arial,
+PingFang SC,
+Hiragino Sans GB,
+WenQuanYi Micro Hei,
+Microsoft Yahei,sans-serif  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+@font-face {
+    font-family: "apple";
+    src: url(/assets/fonts/SF-Pro-Display-Regular.otf);
+}
+
+body {
+    font-family: "apple";
+}
+
+header {
+    /* background-color: #080808; */
+    width: 100%;
+    height: 100vh;
+}
+
+
+nav p {
+    color: #98A7B5;
+    margin: 0.8em 0;
+}
+
+.container {
+    background-color: #1a1c20;
+    /* background-color: #24262B; */
+    padding: 0px 10%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ml-a {
+    margin: 0 auto;
+}
+
+.pd-a {
+    padding: 0 40px;
+}
+
+.col-50 {
+    flex-basis: 50%;
+}
+
+nav {
+    background-color: #24262B;
+    display: flex;
+    /* vertical-align: middle; */
+    height: 60px;
+    flex-wrap: wrap;
+}
+
+nav .nav-left {
+    margin: 0 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav .casino {
+    display: flex;
+    align-items: center;
+    margin: 0 6px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.justify-content {
+    justify-content: space-between;
+}
+
+nav .nav-img {
+    width: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.casino .fa-solid {
+    font-weight: 900;
+    color: #3bc117;
+    padding-right: 10px;
+    padding-left: 4px;
+}
+
+.sign-login a {
+    padding: 10px 25px;
+    color: #98A7B5;
+    line-height: 53px;
+}
+
+.sign-login .login {
+    background-color: #3bc117;
+    color: #fff;
+    border-radius: 4px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.sign-login .cmt .fa-solid {
+    font-size: 18px;
+    margin: 0 20px;
+}
+
+
+.header-txt {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.header-txt p {
+    line-height: 50px;
+    color: #fff;
+    font-size: 46px;
+}
+
+.header-txt span {
+    color: #3bc117;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.connect {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.direct-login {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.direct-login .sign-up {
+    background-color: #5617cb;
+    color: #fff;
+    padding: 20px 30px;
+    border-radius: 4px;
+    margin: 20px 10px;
+    font-size: 18px;
+}
+
+.other-login {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.other-login p {
+    font-size: 1em;
+    letter-spacing: 1px;
+    color: #98A7B5;
+}
+
+.other-group a {
+    padding: 0 3px;
+}
+
+.other-group img {
+    height: 28px;
+    width: 28px;
+}
+.header-img img{
+    width: 110%;
+    height: 100%;
+}
