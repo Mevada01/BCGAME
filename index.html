@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -66,7 +67,6 @@
                         <a href="#" class="sign">Sign in</a>
                         <a href="#" class="login">Sign up</a>
                         <a href="#" class="cmt"><i class="fa-solid fa-comment-dots"></i></a>
-
                     </div>
                 </div>
             </nav>
@@ -96,6 +96,60 @@
             </div>
         </div>
     </header>
+    <section id="slider">
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <img src="assets/imgs/slider-card2.png" alt="">
+                    <img src="assets/imgs/slider-card1.png" alt="">
+                    <img src="assets/imgs/slider-card6.png" alt="">
+                    <img src="assets/imgs/slider-card7.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/imgs/slider-card3.png" alt="">
+                    <img src="assets/imgs/slider-card4.png" alt="">
+                    <img src="assets/imgs/slider-card5.png" alt="">
+                    <img src="assets/imgs/slider-card2.png" alt="">
+                </div>
+
+
+                ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // And if we need scrollbar
+
+        });
+    </script>
 </body>
 
 </html>
