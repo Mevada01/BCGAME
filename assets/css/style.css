@@ -25,6 +25,7 @@ Microsoft Yahei,sans-serif  */
 
 body {
     font-family: "apple";
+    background-color: #1a1c20;
 }
 
 
@@ -114,7 +115,7 @@ nav .casino {
 }
 
 nav .nav-img {
-    width: 50px;
+    width: 45px;
     padding-right: 10px;
     padding-left: 10px;
 }
@@ -214,12 +215,12 @@ nav .nav-img {
     z-index: 1000;
 }
 
-/* .swiper {
+.swiper {
     width: 80%;
     height: fit-content;
 }
 
-*/
+
 .swiper-slide img {
     width: 24.5%;
 } 
