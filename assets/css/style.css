@@ -44,9 +44,14 @@ header {
     /* height: 100vh; */
 }
 
-
 nav p {
     color: #98A7B5;
+    margin: 0.8em 0;
+}
+
+nav p:hover {
+    color: #fff;
+    /* border: 1px solid #98A7B5; */
     margin: 0.8em 0;
 }
 
@@ -133,6 +138,12 @@ nav .nav-img {
 .sign-login a {
     padding: 10px 25px;
     color: #98A7B5;
+    line-height: 53px;
+}
+
+.sign-login a:hover {
+    padding: 10px 25px;
+    color: #fff;
     line-height: 53px;
 }
 
@@ -276,33 +287,61 @@ nav .nav-img {
     background-color: #1C1E22;
 }
 
-.sec-3-pay{
+.sec-3-pay {
     margin: 20px 20px;
     padding: 20px 30px;
 }
-.sec-3-pay{
-    margin: 20px 70px;
+
+.sec-3-pay {
+    /* margin: 60px 0px; */
     padding: 20px 70px;
     justify-content: center;
 }
-.pay-top-list img{
+
+.pay-top-list img {
     width: 100px;
 }
 
-.pay-top-list{
+.pay-top-list {
     margin-top: 30px;
 }
 
-.pay-bot-list{
+.pay-bot-list {
     margin: 20px auto;
     width: 80%;
 }
 
-.pay-bot-list img{
+.pay-bot-list img {
     width: 100px;
 }
 
-.pay-txt{
+.pay-txt {
     margin: 40px 20px;
-    padding: 40px 20px ;
+    padding: 40px 20px;
+}
+
+.pay-txt p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+.pay-txt span {
+    color: darkgoldenrod;
+}
+
+.pay-cryp .sign-up {
+    background-color: #5617cb;
+    color: #fff;
+    padding: 20px 30px;
+    border-radius: 4px;
+    margin: 50px 0px;
+    font-size: 18px;
+}
+
+.pay-cryp {
+    margin-top: 70px;
+    margin-bottom: 30px;
 }
